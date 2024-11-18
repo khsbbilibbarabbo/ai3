@@ -54,7 +54,7 @@ if uploaded_file is not None:
     if prediction == labels[0]:
          st.write("중국식 냉면")
     elif prediction == labels[1]:
-         st.write("이종원")
+         st.write("이재환")
     elif prediction == labels[2]:
          st.write("이종원 대노 버전")
 
